@@ -233,7 +233,7 @@ public class Wiki {
             e.printStackTrace();
         }
 
-
+        //test commit for git
         driver.switchTo().alert().dismiss();*/
 
 
@@ -401,7 +401,13 @@ public class Wiki {
         if(!driver.findElement(By.xpath(patch)).isSelected()) {
             driver.findElement(By.xpath(patch)).click();
         }
+
     }
+
+    private void sdfh(){
+
+    }
+
     }
 
 
